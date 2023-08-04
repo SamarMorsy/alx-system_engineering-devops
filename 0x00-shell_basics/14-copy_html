@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 current_dir=$(pwd)
 parent_dir=$(dirname "$current_dir")
 for file in "$current_dir"/*.html; do
